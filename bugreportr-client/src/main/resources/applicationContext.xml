@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+	
+	<bean id="bugreportrServices" class="org.springframework.remoting.rmi.RmiProxyFactoryBean">
+		<property name="serviceUrl" value="rmi://localhost:1099/BugreportrService" />
+		<property name="serviceInterface"
+			value="org.balazsbela.bugreportr.commons.BugreportrServicesFacade" />
+		<property name="lookupStubOnStartup" value="false"/>
+	</bean>
+
+	<bean id="notificationSubscriberService" class="org.balazsbela.bugreportr.controller.NotificationSubscriberImpl" />
+
+<!-- 	<bean id="mainController" class="org.balazsbela.bugreportr.controller.MainController" > -->
+<!-- 		<property name="notificationSubscriber" ref="notificationService"/> -->
+<!-- 		<property name="services" ref="bugreportrServices"/>				 -->
+<!-- 	</bean> -->
+
+
+</beans>

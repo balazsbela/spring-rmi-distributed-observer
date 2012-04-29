@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_26" class="java.beans.XMLDecoder"> 
+ <object class="java.util.ArrayList"> 
+  <void method="add"> 
+   <object class="org.balazsbela.bugreportr.commons.Project"> 
+    <void property="bugs"> 
+     <void method="add"> 
+      <object class="org.balazsbela.bugreportr.commons.Bug"> 
+       <void property="assignee"> 
+        <object class="org.balazsbela.bugreportr.commons.Developer"> 
+         <void property="password"> 
+          <string>12345</string> 
+         </void> 
+         <void property="userId"> 
+          <int>5</int> 
+         </void> 
+         <void property="username"> 
+          <string>tom</string> 
+         </void> 
+        </object> 
+       </void> 
+       <void property="desription"> 
+        <string>Misile won&apos;t work!</string> 
+       </void> 
+       <void property="fixed"> 
+        <boolean>true</boolean> 
+       </void> 
+       <void property="name"> 
+        <string>Misile won&apos;t work!</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void method="add"> 
+      <object class="org.balazsbela.bugreportr.commons.Bug"> 
+       <void property="assignee"> 
+        <object class="org.balazsbela.bugreportr.commons.Developer"> 
+         <void property="password"> 
+          <string>12345</string> 
+         </void> 
+         <void property="userId"> 
+          <int>5</int> 
+         </void> 
+         <void property="username"> 
+          <string>tom</string> 
+         </void> 
+        </object> 
+       </void> 
+       <void property="desription"> 
+        <string>alice bug</string> 
+       </void> 
+       <void property="fixed"> 
+        <boolean>true</boolean> 
+       </void> 
+       <void property="name"> 
+        <string>alice bug</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void method="add"> 
+      <object class="org.balazsbela.bugreportr.commons.Bug"> 
+       <void property="assignee"> 
+        <object class="org.balazsbela.bugreportr.commons.Developer"> 
+         <void property="password"> 
+          <string>12345</string> 
+         </void> 
+         <void property="userId"> 
+          <int>5</int> 
+         </void> 
+         <void property="username"> 
+          <string>tom</string> 
+         </void> 
+        </object> 
+       </void> 
+       <void property="desription"> 
+        <string>conan bug</string> 
+       </void> 
+       <void property="fixed"> 
+        <boolean>true</boolean> 
+       </void> 
+       <void property="name"> 
+        <string>conan bug</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void method="add"> 
+      <object class="org.balazsbela.bugreportr.commons.Bug"> 
+       <void property="assignee"> 
+        <object class="org.balazsbela.bugreportr.commons.Developer"> 
+         <void property="password"> 
+          <string>12345</string> 
+         </void> 
+         <void property="userId"> 
+          <int>2</int> 
+         </void> 
+         <void property="username"> 
+          <string>jonathan</string> 
+         </void> 
+        </object> 
+       </void> 
+       <void property="desription"> 
+        <string>conan bug 2</string> 
+       </void> 
+       <void property="fixed"> 
+        <boolean>true</boolean> 
+       </void> 
+       <void property="name"> 
+        <string>conan bug 2</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void method="add"> 
+      <object class="org.balazsbela.bugreportr.commons.Bug"> 
+       <void property="assignee"> 
+        <object class="org.balazsbela.bugreportr.commons.Developer"> 
+         <void property="password"> 
+          <string>12345</string> 
+         </void> 
+         <void property="userId"> 
+          <int>5</int> 
+         </void> 
+         <void property="username"> 
+          <string>tom</string> 
+         </void> 
+        </object> 
+       </void> 
+       <void property="desription"> 
+        <string>alice bug 2</string> 
+       </void> 
+       <void property="fixed"> 
+        <boolean>true</boolean> 
+       </void> 
+       <void property="name"> 
+        <string>alice bug 2</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void method="add"> 
+      <object class="org.balazsbela.bugreportr.commons.Bug"> 
+       <void property="assignee"> 
+        <object class="org.balazsbela.bugreportr.commons.Developer"> 
+         <void property="password"> 
+          <string>12345</string> 
+         </void> 
+         <void property="userId"> 
+          <int>2</int> 
+         </void> 
+         <void property="username"> 
+          <string>jonathan</string> 
+         </void> 
+        </object> 
+       </void> 
+       <void property="desription"> 
+        <string>conan bug 3</string> 
+       </void> 
+       <void property="fixed"> 
+        <boolean>true</boolean> 
+       </void> 
+       <void property="name"> 
+        <string>conan bug 3</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void method="add"> 
+      <object class="org.balazsbela.bugreportr.commons.Bug"> 
+       <void property="assignee"> 
+        <object class="org.balazsbela.bugreportr.commons.Developer"> 
+         <void property="password"> 
+          <string>12345</string> 
+         </void> 
+         <void property="userId"> 
+          <int>5</int> 
+         </void> 
+         <void property="username"> 
+          <string>tom</string> 
+         </void> 
+        </object> 
+       </void> 
+       <void property="desription"> 
+        <string>inca un bug</string> 
+       </void> 
+       <void property="fixed"> 
+        <boolean>true</boolean> 
+       </void> 
+       <void property="name"> 
+        <string>inca un bug</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void method="add"> 
+      <object class="org.balazsbela.bugreportr.commons.Bug"> 
+       <void property="desription"> 
+        <string>bug2</string> 
+       </void> 
+       <void property="name"> 
+        <string>bug2</string> 
+       </void> 
+      </object> 
+     </void> 
+    </void> 
+    <void property="developers"> 
+     <void method="add"> 
+      <object class="org.balazsbela.bugreportr.commons.Developer"> 
+       <void property="password"> 
+        <string>password</string> 
+       </void> 
+       <void property="userId"> 
+        <int>1</int> 
+       </void> 
+       <void property="username"> 
+        <string>johny</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void method="add"> 
+      <object class="org.balazsbela.bugreportr.commons.Developer"> 
+       <void property="password"> 
+        <string>12345</string> 
+       </void> 
+       <void property="userId"> 
+        <int>2</int> 
+       </void> 
+       <void property="username"> 
+        <string>jonathan</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void method="add"> 
+      <object class="org.balazsbela.bugreportr.commons.Developer"> 
+       <void property="password"> 
+        <string>12345</string> 
+       </void> 
+       <void property="userId"> 
+        <int>5</int> 
+       </void> 
+       <void property="username"> 
+        <string>tom</string> 
+       </void> 
+      </object> 
+     </void> 
+    </void> 
+    <void property="name"> 
+     <string>Nuclear Misile Control</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="org.balazsbela.bugreportr.commons.Project"> 
+    <void property="developers"> 
+     <void method="add"> 
+      <object class="org.balazsbela.bugreportr.commons.Developer"> 
+       <void property="password"> 
+        <string>12345</string> 
+       </void> 
+       <void property="userId"> 
+        <int>6</int> 
+       </void> 
+       <void property="username"> 
+        <string>ivan</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void method="add"> 
+      <object class="org.balazsbela.bugreportr.commons.Developer"> 
+       <void property="password"> 
+        <string>12345</string> 
+       </void> 
+       <void property="userId"> 
+        <int>7</int> 
+       </void> 
+       <void property="username"> 
+        <string>sergey</string> 
+       </void> 
+      </object> 
+     </void> 
+    </void> 
+    <void property="name"> 
+     <string>My Little Pony MMORPG</string> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/springrmiexample-client/src/main/java/com/etymgiko/springrmiexample/shared
+END
+HelloResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/5/trunk/springrmiexample-client/src/main/java/com/etymgiko/springrmiexample/shared/HelloResponse.java
+END
+HelloService.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/5/trunk/springrmiexample-client/src/main/java/com/etymgiko/springrmiexample/shared/HelloService.java
+END
+HelloMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/5/trunk/springrmiexample-client/src/main/java/com/etymgiko/springrmiexample/shared/HelloMessage.java
+END
